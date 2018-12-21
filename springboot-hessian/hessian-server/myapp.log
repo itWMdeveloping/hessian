@@ -1,0 +1,229 @@
+2017-09-29 16:23:07.143  INFO 1048 --- [restartedMain] com.zzy.HessianServerApplication         : Starting HessianServerApplication on WAK-20161217XYK with PID 1048 (E:\java\space\eclipseSpaceWork\springboot-hessian\hessian-server\target\classes started by Administrator in E:\java\space\eclipseSpaceWork\springboot-hessian\hessian-server)
+2017-09-29 16:23:07.146  INFO 1048 --- [restartedMain] com.zzy.HessianServerApplication         : No active profile set, falling back to default profiles: default
+2017-09-29 16:23:07.679  INFO 1048 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7cd366e0: startup date [Fri Sep 29 16:23:07 CST 2017]; root of context hierarchy
+2017-09-29 16:23:13.477  INFO 1048 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8066 (http)
+2017-09-29 16:23:13.558  INFO 1048 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-09-29 16:23:13.559  INFO 1048 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-09-29 16:23:14.494  INFO 1048 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2017-09-29 16:23:14.536  INFO 1048 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/server]        : Initializing Spring embedded WebApplicationContext
+2017-09-29 16:23:14.538  INFO 1048 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6870 ms
+2017-09-29 16:23:15.081  INFO 1048 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-29 16:23:15.130  INFO 1048 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-29 16:23:15.131  INFO 1048 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-29 16:23:15.132  INFO 1048 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-29 16:23:15.133  INFO 1048 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-29 16:23:16.590  INFO 1048 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7cd366e0: startup date [Fri Sep 29 16:23:07 CST 2017]; root of context hierarchy
+2017-09-29 16:23:16.796  INFO 1048 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-29 16:23:16.799  INFO 1048 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-29 16:23:16.874  INFO 1048 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Mapped URL path [/HelloWorldService] onto handler '/HelloWorldService'
+2017-09-29 16:23:16.916  INFO 1048 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-29 16:23:16.916  INFO 1048 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-29 16:23:17.049  INFO 1048 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-29 16:23:17.435  INFO 1048 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2017-09-29 16:23:17.558  INFO 1048 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-09-29 16:23:17.901  INFO 1048 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8066 (http)
+2017-09-29 16:23:17.916  INFO 1048 --- [restartedMain] com.zzy.HessianServerApplication         : Started HessianServerApplication in 13.89 seconds (JVM running for 15.935)
+2017-09-29 16:27:44.352  INFO 1048 --- [http-nio-8066-exec-1] o.a.c.c.C.[.[localhost].[/server]        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-29 16:27:44.353  INFO 1048 --- [http-nio-8066-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-29 16:27:44.396  INFO 1048 --- [http-nio-8066-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 43 ms
+2017-09-29 16:28:53.430  INFO 1048 --- [Thread-6] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7cd366e0: startup date [Fri Sep 29 16:23:07 CST 2017]; root of context hierarchy
+2017-09-29 16:28:53.434  INFO 1048 --- [Thread-6] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-09-29 16:28:54.445  INFO 1048 --- [restartedMain] com.zzy.HessianServerApplication         : Starting HessianServerApplication on WAK-20161217XYK with PID 1048 (E:\java\space\eclipseSpaceWork\springboot-hessian\hessian-server\target\classes started by Administrator in E:\java\space\eclipseSpaceWork\springboot-hessian\hessian-server)
+2017-09-29 16:28:54.446  INFO 1048 --- [restartedMain] com.zzy.HessianServerApplication         : No active profile set, falling back to default profiles: default
+2017-09-29 16:28:54.452  INFO 1048 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@43bb5a21: startup date [Fri Sep 29 16:28:54 CST 2017]; root of context hierarchy
+2017-09-29 16:28:55.106  INFO 1048 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8066 (http)
+2017-09-29 16:28:55.107  INFO 1048 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-09-29 16:28:55.108  INFO 1048 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-09-29 16:28:55.267  INFO 1048 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2017-09-29 16:28:55.272  INFO 1048 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/server]        : Initializing Spring embedded WebApplicationContext
+2017-09-29 16:28:55.273  INFO 1048 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 821 ms
+2017-09-29 16:28:55.322  INFO 1048 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-29 16:28:55.323  INFO 1048 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-29 16:28:55.323  INFO 1048 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-29 16:28:55.323  INFO 1048 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-29 16:28:55.324  INFO 1048 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-29 16:28:55.615  INFO 1048 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@43bb5a21: startup date [Fri Sep 29 16:28:54 CST 2017]; root of context hierarchy
+2017-09-29 16:28:55.626  INFO 1048 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-29 16:28:55.627  INFO 1048 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-29 16:28:55.633  INFO 1048 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Mapped URL path [/HelloWorldService] onto handler '/HelloWorldService'
+2017-09-29 16:28:55.636  INFO 1048 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-29 16:28:55.637  INFO 1048 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-29 16:28:55.653  INFO 1048 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-29 16:28:55.696  INFO 1048 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2017-09-29 16:28:55.770  INFO 1048 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-09-29 16:28:55.793  INFO 1048 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8066 (http)
+2017-09-29 16:28:55.795  INFO 1048 --- [restartedMain] com.zzy.HessianServerApplication         : Started HessianServerApplication in 1.433 seconds (JVM running for 353.797)
+2017-09-29 16:28:59.328  INFO 1048 --- [http-nio-8066-exec-9] o.a.c.c.C.[.[localhost].[/server]        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-29 16:28:59.329  INFO 1048 --- [http-nio-8066-exec-9] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-29 16:28:59.337  INFO 1048 --- [http-nio-8066-exec-9] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 6 ms
+2018-01-10 09:41:38.896  INFO 9976 --- [restartedMain] com.zzy.HessianServerApplication         : Starting HessianServerApplication on WAK-20161217XYK with PID 9976 (E:\java\git\springboot-hessian\springboot-hessian\hessian-server\target\classes started by Administrator in E:\java\git\springboot-hessian\springboot-hessian\hessian-server)
+2018-01-10 09:41:38.897  INFO 9976 --- [restartedMain] com.zzy.HessianServerApplication         : No active profile set, falling back to default profiles: default
+2018-01-10 09:41:38.965  INFO 9976 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4edd0a74: startup date [Wed Jan 10 09:41:38 CST 2018]; root of context hierarchy
+2018-01-10 09:41:40.564  INFO 9976 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8066 (http)
+2018-01-10 09:41:40.579  INFO 9976 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-10 09:41:40.580  INFO 9976 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-01-10 09:41:40.942  INFO 9976 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-10 09:41:40.949  INFO 9976 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/server]        : Initializing Spring embedded WebApplicationContext
+2018-01-10 09:41:40.950  INFO 9976 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1987 ms
+2018-01-10 09:41:41.092  INFO 9976 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-10 09:41:41.098  INFO 9976 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-10 09:41:41.098  INFO 9976 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-10 09:41:41.098  INFO 9976 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-10 09:41:41.100  INFO 9976 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-10 09:41:41.428  INFO 9976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4edd0a74: startup date [Wed Jan 10 09:41:38 CST 2018]; root of context hierarchy
+2018-01-10 09:41:41.491  INFO 9976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-10 09:41:41.492  INFO 9976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-10 09:41:41.510  INFO 9976 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Mapped URL path [/HelloWorldService] onto handler '/HelloWorldService'
+2018-01-10 09:41:41.519  INFO 9976 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-10 09:41:41.520  INFO 9976 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-10 09:41:41.559  INFO 9976 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-10 09:41:41.687  WARN 9976 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2018-01-10 09:41:41.768  INFO 9976 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-10 09:41:41.846  INFO 9976 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8066 (http)
+2018-01-10 09:41:41.852  INFO 9976 --- [restartedMain] com.zzy.HessianServerApplication         : Started HessianServerApplication in 3.221 seconds (JVM running for 3.586)
+2018-01-10 09:44:06.535  INFO 9976 --- [http-nio-8066-exec-1] o.a.c.c.C.[.[localhost].[/server]        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-10 09:44:06.535  INFO 9976 --- [http-nio-8066-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-10 09:44:06.550  INFO 9976 --- [http-nio-8066-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2018-01-10 11:09:38.466  INFO 12116 --- [restartedMain] com.zzy.HessianServerApplication         : Starting HessianServerApplication on zhuhuidong with PID 12116 (F:\springboot-hessian\hessian-server\target\classes started by zhuhuidong in F:\springboot-hessian\hessian-server)
+2018-01-10 11:09:38.469  INFO 12116 --- [restartedMain] com.zzy.HessianServerApplication         : No active profile set, falling back to default profiles: default
+2018-01-10 11:09:38.685  INFO 12116 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7d0ba592: startup date [Wed Jan 10 11:09:38 CST 2018]; root of context hierarchy
+2018-01-10 11:09:40.659  INFO 12116 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8066 (http)
+2018-01-10 11:09:40.677  INFO 12116 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-10 11:09:40.679  INFO 12116 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-01-10 11:09:41.147  INFO 12116 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-10 11:09:41.155  INFO 12116 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/server]        : Initializing Spring embedded WebApplicationContext
+2018-01-10 11:09:41.157  INFO 12116 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2476 ms
+2018-01-10 11:09:41.350  INFO 12116 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-10 11:09:41.355  INFO 12116 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-10 11:09:41.356  INFO 12116 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-10 11:09:41.358  INFO 12116 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-10 11:09:41.358  INFO 12116 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-10 11:09:41.800  INFO 12116 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7d0ba592: startup date [Wed Jan 10 11:09:38 CST 2018]; root of context hierarchy
+2018-01-10 11:09:41.943  INFO 12116 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-10 11:09:41.947  INFO 12116 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-10 11:09:41.989  INFO 12116 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Mapped URL path [/HelloWorldService] onto handler '/HelloWorldService'
+2018-01-10 11:09:42.062  INFO 12116 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-10 11:09:42.065  INFO 12116 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-10 11:09:42.160  INFO 12116 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-10 11:09:42.398  INFO 12116 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-01-10 11:09:42.451  INFO 12116 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-10 11:09:42.588  INFO 12116 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8066 (http)
+2018-01-10 11:09:42.595  INFO 12116 --- [restartedMain] com.zzy.HessianServerApplication         : Started HessianServerApplication in 4.48 seconds (JVM running for 4.994)
+2018-01-10 11:10:26.296  INFO 9072 --- [restartedMain] com.zzy.HessianServerApplication         : Starting HessianServerApplication on zhuhuidong with PID 9072 (F:\springboot-hessian\hessian-server\target\classes started by zhuhuidong in F:\springboot-hessian\hessian-server)
+2018-01-10 11:10:26.298  INFO 9072 --- [restartedMain] com.zzy.HessianServerApplication         : No active profile set, falling back to default profiles: default
+2018-01-10 11:10:26.391  INFO 9072 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@47ba5396: startup date [Wed Jan 10 11:10:26 CST 2018]; root of context hierarchy
+2018-01-10 11:10:28.269  INFO 9072 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8066 (http)
+2018-01-10 11:10:28.290  INFO 9072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-10 11:10:28.292  INFO 9072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2018-01-10 11:10:28.691  INFO 9072 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-01-10 11:10:28.698  INFO 9072 --- [localhost-startStop-1] o.a.c.c.C.[.[localhost].[/server]        : Initializing Spring embedded WebApplicationContext
+2018-01-10 11:10:28.698  INFO 9072 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2310 ms
+2018-01-10 11:10:28.883  INFO 9072 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-10 11:10:28.894  INFO 9072 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-10 11:10:28.896  INFO 9072 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-10 11:10:28.897  INFO 9072 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-10 11:10:28.899  INFO 9072 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-10 11:10:29.331  INFO 9072 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@47ba5396: startup date [Wed Jan 10 11:10:26 CST 2018]; root of context hierarchy
+2018-01-10 11:10:29.414  INFO 9072 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-10 11:10:29.422  INFO 9072 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-10 11:10:29.461  INFO 9072 --- [restartedMain] o.s.w.s.h.BeanNameUrlHandlerMapping      : Mapped URL path [/HelloWorldService] onto handler '/HelloWorldService'
+2018-01-10 11:10:29.475  INFO 9072 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-10 11:10:29.476  INFO 9072 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-10 11:10:29.531  INFO 9072 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-10 11:10:29.695  WARN 9072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2018-01-10 11:10:29.750  INFO 9072 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-10 11:10:29.794 ERROR 9072 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Failed to start end point associated with ProtocolHandler ["http-nio-8066"]
+
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_40]
+	at sun.nio.ch.Net.bind(Net.java:437) ~[na:1.8.0_40]
+	at sun.nio.ch.Net.bind(Net.java:429) ~[na:1.8.0_40]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_40]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_40]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at com.zzy.HessianServerApplication.main(HessianServerApplication.java:22) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_40]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+
+2018-01-10 11:10:29.796 ERROR 9072 --- [restartedMain] o.apache.catalina.core.StandardService   : Failed to start connector [Connector[HTTP/1.1-8066]]
+
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8066]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at com.zzy.HessianServerApplication.main(HessianServerApplication.java:22) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_40]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1029) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	... 18 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_40]
+	at sun.nio.ch.Net.bind(Net.java:437) ~[na:1.8.0_40]
+	at sun.nio.ch.Net.bind(Net.java:429) ~[na:1.8.0_40]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_40]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_40]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) ~[tomcat-embed-core-8.5.16.jar:8.5.16]
+	... 19 common frames omitted
+
+2018-01-10 11:10:29.836  INFO 9072 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-01-10 11:10:29.918  INFO 9072 --- [restartedMain] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-01-10 11:10:29.939 ERROR 9072 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8066 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8066, or configure this application to listen on another port.
+
+2018-01-10 11:10:29.941  INFO 9072 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@47ba5396: startup date [Wed Jan 10 11:10:26 CST 2018]; root of context hierarchy
+2018-01-10 11:10:29.944  INFO 9072 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-01-10 11:12:14.243  INFO 12116 --- [http-nio-8066-exec-1] o.a.c.c.C.[.[localhost].[/server]        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-10 11:12:14.244  INFO 12116 --- [http-nio-8066-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-10 11:12:14.274  INFO 12116 --- [http-nio-8066-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+2018-01-10 11:15:03.179  WARN 12116 --- [http-nio-8066-exec-3] o.s.web.servlet.PageNotFound             : HessianServiceExporter only supports POST requests
+2018-01-10 11:15:03.181  WARN 12116 --- [http-nio-8066-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved exception caused by Handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: HessianServiceExporter only supports POST requests
